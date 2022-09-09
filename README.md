@@ -23,3 +23,5 @@ Prediction of laser absorptivity from synchrotron x-ray images using deep convol
 ## Acknowledgement
 This work is implemented using [ResNet50](https://github.com/KaimingHe/deep-residual-networks) and [ConvNeXt_tiny](https://github.com/facebookresearch/ConvNeXt).
 
+The model interpretation deployed the [CAM](https://github.com/jacobgil/pytorch-grad-cam). 
+
