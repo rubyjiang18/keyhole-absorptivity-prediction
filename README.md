@@ -7,12 +7,12 @@ Prediction of laser absorptivity from synchrotron x-ray images using deep convol
 2. [Asynchronous AM Bench 2022 Challenge Data: Real-time, simultaneous absorptance and high-speed Xray imaging](https://data.nist.gov/od/id/mds2-2525)
 
 ## Catalog
-* Image preprocessing code
-* DataSet code
-* Reset50 and ConvNeXt_tiny training code
-* Evaluation code
+* Preprocess: Image preprocessing
+* Cutomized DataSet
+* Model training
+* Model evaluation and interpretation
 
-## Results 
+## Results
 | Model | if pretrained | train loss | val loss | test loss |
 | --- | --- | --- | --- | --- |
 | ResNet50 | pretrained=True | 0.2139 | 1.4044 | 4.5335 |
